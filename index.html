@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Ghostread
+    </title>
+    <link rel="icon" type="img/x-icon" href="images/logo.png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bx-ghost bx-tada main-color'></i>Gho<span class="main-color">str</span>ead
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html#Home">Home</a></li>
+                    <li><a href="index.html#Recommeded">Recommeded</a></li>
+                    <li><a href="index.html#Genre">Genre</a></li>
+                    <li><a href="index.html#Region">Region</a></li>
+                    <!-- <li><a href="#">About</a></li> -->
+                    <li class="nav-item">
+                        <a href="login.html" id="sign-in-btn" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="logout-btn">
+                        <a href="#" id="logout-btn" class="btn btn-hover">
+                            <span class="bx bx-power-off"></span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- <nav class="bottom-nav">
+        <button class="nav-btn" onclick="window.location.href='index.html#Home'">Home</button>
+        <button class="nav-btn" onclick="window.location.href='index.html#Recommended'">Recommended</button>
+        <button class="nav-btn" onclick="window.location.href='index.html#Genre'">Genre</button>
+        <button class="nav-btn" onclick="window.location.href='index.html#Region'">Region</button>
+    </nav> -->
+
+    <!-- HERO SECTION -->
+    <div id="Home" class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/bnrk.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Omniscient Reader's Viewpont
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>120 mins</span>
+                                </div> -->
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>10+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Omniscient Reader's Viewpoint berkisah tentang Kim Dok Ja, satu-satunya pembaca web novel "Tiga Cara Bertahan Hidup di Dunia yang Hancur". Setelah membaca bab terakhir, dunianya berubah menjadi seperti dalam novel. Kim Dok Ja, satu-satunya yang bisa bertahan, harus bekerja sama dengan karakter novel untuk menyelamatkan dirinya.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bx-power-off"></i>
+                                    <span>Start Reading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/bnnc.webp" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Spare Me, Great Lord
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>120 mins</span>
+                                </div> -->
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>10+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                SPARE ME GREAT LORD ini berkisah tentang pemuda bernama Lu Shu yang memiliki kekuatan super secara ajaib. Hal ini membuatnya memiliki tekad untuk melindungi orang-orang di sekitarnya. Namun, dengan kekuatan tersebut, Lu Shu juga harus berhadapan dengan berbagai masalah serta kekacauan besar yang timbul akibat kekuatannya tersebut.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bx-power-off"></i>
+                                    <span>Start Reading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/bnr3.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Wind Breaker
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>120 mins</span>
+                                </div> -->
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>10+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Wind Breaker berfokus pada Haruka Sakura, seorang individu yang hanya menghargai kekuatan dan menghindari orang-orang yang dianggap lemah. Latar belakangnya adalah sebuah sekolah menengah atas yang dipenuhi oleh siswa nakal yang memiliki hasrat menjadi pahlawan demi melindungi kota mereka.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bx-power-off"></i>
+                                    <span>Start Reading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/bnr1.webp" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Wind Breaker
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>120 mins</span>
+                                </div> -->
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>10+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Wind Breaker berfokus pada Jahyun, seorang murid teladan di sekolah yang senang bersepeda sendirian. Namun, karena kemampuannya yang hebat dalam bersepeda, ia terus berhadapan dengan crew sepeda di sekitarnya. Drama jalanan tentang remaja-remaja yang memimpikan kebebasan!
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bx-power-off"></i>
+                                    <span>Start Reading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/bnr4.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                The King Avatar
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>120 mins</span>
+                                </div> -->
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>10+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                The King's Avatar mengikuti kisah Ye Xiu, seorang pemain e-sport profesional di Hangzhou, Tiongkok, yang dikenal sebagai salah satu yang terbaik di permainan Glory. Setelah dipaksa mundur dari timnya, Excellent Era, karena menolak sponsor demi keuntungan tim, Ye Xiu bekerja sebagai manajer malam di Happy Internet Cafe. Di sana, ia bertemu Chen Guo, pemilik kafe yang ingin membentuk tim e-sport baru. Sambil menunggu kembali ke kancah kompetisi, Ye Xiu terus bermain dan mencari pemain berbakat untuk tim barunya.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bx-power-off"></i>
+                                    <span>Start Reading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/bnrj.jpe" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                One Piece
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>120 mins</span>
+                                </div> -->
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>10+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                
+One Piece adalah harta yang diperoleh oleh Raja Bajak Laut Gol D. Roger, konon memiliki nilai tak terbayangkan dan terletak di pulau terakhir Grand Line, Raftel. Harta ini menjadi tujuan utama Monkey D. Luffy dan krunya, serta banyak bajak laut lainnya, yang berusaha menjadi Raja Bajak Laut berikutnya, mengikuti kata-kata terakhir Roger sebelum dieksekusi.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bx-power-off"></i>
+                                    <span>Start Reading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END HERO SLIDE -->
+        <!-- TOP MOVIES SLIDE -->
+        <div id="Recommeded" class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/korea/ack.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Transcension Academy
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/china/ylc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            First Dragon
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/jepang/mehj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Mashle
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/korea/SSSk.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            SSS-Class Revival Hunter
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/china/tlsc.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tales of Demons and Gods
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/jepang/wbj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Wind Breaker
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/korea/orvk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Omniscient Reader's Viewpont
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/china/rofc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Rebirth of Abandoned Young Master
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="./images/jepang/tssj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tensei Shitara Slime Datta Ken
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+        <!-- END TOP MOVIES SLIDE -->
+    </div>
+    <!-- END HERO SECTION -->
+
+    <div id="Genre" class="section">
+        <div class="container">
+            <div class="section-header">
+                Genre
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <a href="acc.html#Action" class="mov mov-hover">
+                    <i class="bx "></i>
+                    <span>Action</span>
+                </a>
+                <a href="adv.html#Adventure" class="mov mov-hover">
+                    <i class="bx "></i>
+                        <span>Adventure</span>
+                </a>
+                <a href="sol.html#Slice" class="mov mov-hover">
+                    <i class="bx "></i>
+                    <span>Slice Of Life</span>
+                </a>
+                <a href="rom.html#Romence" class="mov mov-hover">
+                    <i class="bx "></i>
+                    <span>Romence</span>
+                </a>
+                <a href="fan.html#Fantasy" class="mov mov-hover">
+                    <i class="bx "></i>
+                    <span>Fantasy</span>
+                </a>
+                <a href="mat.html#Matrial" class="mov mov-hover">
+                    <i class="bx "></i>
+                    <span>Matrial Arts</span>
+                </a>
+                <a href="sch.html#School" class="mov mov-hover">
+                    <i class="bx "></i>
+                    <span>School</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- LATEST MOVIES SECTION -->
+    <div id="Region" class="section">
+        <div class="container">
+            <div class="section-header">
+                Manga
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/FRIj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            FRIEREN: after the and
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/opj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            One Piece
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/drsj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Dr. Stone
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/jkj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Jujutsu Kaisen
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/wbj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Wind Breaker
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/LvJ.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/wwyj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Weathering Whit You
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/tskj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tensei Shitara Ken Deshita
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/tssj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tensei Shitara Slime Datta Ken
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/asvj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            A Silent Voice
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/jepang/mehj.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Mashle
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST MOVIES SECTION -->
+
+    <!-- LATEST SERIES SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Manhwa
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/slk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Solo Leveling
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/orvk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Omniscient Reader'Viewpont
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/lkk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Looksim
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/wbk.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Wind Breaker
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/ghsk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The God Of High School
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/togk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tower Of God
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/ack.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Transcension Academy
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                                 <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/hwk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Gardener in a Hunter World
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                                 <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/udtk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Updater
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                                 <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/SSSk.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            SSS-Class Revival Hunter
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/sobk.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Seasons of Blossom
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/korea/shk.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            She Hopeless
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST SERIES SECTION -->
+
+    <!-- LATEST CARTOONS SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                Manhua
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/btthc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Battle Through the Heavens
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/dlc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Daily Life of The Immortal King
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/slc.png" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Soul Land
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/sppc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Spare Me, Great Lord
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/ylc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            First Dragon
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/forc.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The First Order
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/ufsc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Useless First Son-In-Law
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/rofc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Rebirth of Abandoned Young Master
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/risc.jpeg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Rise From the Rubble
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/tlsc.webp" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tales of Demons and Gods
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/tkac.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The King Avatar
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/china/petc.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Monster Pet Evolution
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <!-- <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div> -->
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST CARTOONS SECTION -->
+
+    <!-- SPECIAL MOVIE SECTION -->
+    <div class="section">
+        <div class="hero-slide-item">
+            <img src="./images/bnrkl.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+                <div class="item-content-wraper">
+                    <div class="item-content-title">
+                        Solo Leveling
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <!-- <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div> -->
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>10+</span>
+                        </div>
+                    </div>
+                    <div class="item-content-description">
+                        Solo Leveling menceritakan tentang Sung Jinwoo, seorang Hunter E-Rank yang dianggap lemah. Ketika terjebak dalam dungeon misterius, ia mendapatkan kekuatan baru melalui sebuah program bernama System, yang mengubahnya menjadi pemain. System ini memungkinkan Jinwoo menaikkan levelnya sendiri dan menghancurkan monster. Seiring bertambah kuat, Jinwoo terlibat dalam misi melawan monster dan makhluk supernatural, menarik perhatian musuh kuat. Ia pun menyadari banyak rahasia di balik kebangkitannya dan kemampuan barunya.
+                    </div>
+                    <div class="item-action">
+                        <a href="#" class="btn btn-hover">
+                            <i class="bx bx-power-off"></i>
+                            <span>Start Reading</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END SPECIAL MOVIE SECTION -->
+
+    <!-- PRICING SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="pricing">
+                <div class="pricing-header">
+                    Gho<span class="main-color">str</span>ead pricing
+                </div>
+                <div class="pricing-list">
+                    <div class="row">
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Basic
+                                    </div>
+                                    <div class="pricing-price">
+                                        Free
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Originals</p>
+                                    <p>Can Be Used At Any Time</p>
+                                    <p>Resolution Book : SD</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="#" class="btn btn-hover">
+                                        <span>Register now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box hightlight">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Premium
+                                    </div>
+                                    <div class="pricing-price">
+                                        Rp.35.000 <span>/month</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Originals</p>
+                                    <p>Can Be Used At Any Time</p>
+                                    <p>Resolution Book : SD, HD</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="#" class="btn btn-hover">
+                                        <span>Register now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        VIP
+                                    </div>
+                                    <div class="pricing-price">
+                                        Rp.15.000 <span>/month</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Originals</p>
+                                    <p>Can Be Used At Any Time</p>
+                                    <p>Resolution Book : SD, HD, 4K</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="#" class="btn btn-hover">
+                                        <span>Register now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PRICING SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-ghost bx-tada main-color'></i>Gho<span class="main-color">str</span>ead
+                        </a>
+                        <p>
+                            Ghostread adalah situs web baca komik daring yang menyediakan berbagai komik seperti manga, manhwa, dan manhua dalam berbagai genre. Dengan antarmuka yang mudah digunakan, fitur penanda buku, dan terjemahan dalam berbagai bahasa, Ghostread menawarkan pengalaman membaca yang nyaman dan akses ke komik terbaru.
+                        </p>
+                        <div class="social-list">
+                            <a href="https://www.facebook.com/kkuhrank.tenar" class="social-item" target="_blank">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <!-- <a href="#" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a> -->
+                            <a href="https://www.instagram.com/ily._an/" class="social-item" target="_blank">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Ghostread</b></p>
+                                <ul class="footer-menu">
+                                    <!-- <li><a href="#">About us</a></li> -->
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Browse</b></p>
+                                <ul class="footer-menu">
+                                    <!-- <li><a href="#">About us</a></li> -->
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Help</b></p>
+                                <ul class="footer-menu">
+                                    <!-- <li><a href="#">About us</a></li> -->
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Download app</b></p>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="https://play.google.com/store/apps?hl=id" target="_blank">
+                                            <img src="./images/google-play.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://apps.apple.com/your-app-link" target="_blank">
+                                            <img src="./images/app-store.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2024 <a href="#" target="_blank">
+            Ian</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
